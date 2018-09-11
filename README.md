@@ -1,6 +1,7 @@
 # python-chatbot
 
-Trabalho de Sistemas distribuidos comunicação rpc.
+#### Trabalho de Sistemas distribuidos comunicação rpc.
+
 ChatBot web escrito em python e javascript para demostração do uso da interface de comunicação rpc client-servidor.
 
 Backend:
@@ -8,7 +9,7 @@ Backend:
   + [Flask](http://flask.pocoo.org/)
   + [grpc](https://grpc.io/)
   
-Frontend em Javascript, html, css puro.
+Frontend em Javascript, html, css.
 
 Para executar:
   python greeter_server.py 
