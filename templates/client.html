@@ -1,19 +1,24 @@
+<!--Conteudo do Body utilizando como layout padrão o 'layout.html'-->
 {% extends 'layout.html' %}
 
 {% block content %}
-<section class="d-flex flex-column justify-content-between">
+<section id ="chatBot" class="d-flex flex-column justify-content-between">
+    <!-- Container da aplicação ChatBot -->
     <div class="container-fluid">
         <div class="row">
             <div class="chat-centro" style="width:800px; height:800px;">
+            
+            <!-- Container do header do aplicativo do Chat -->
             <div class="row">
                 <div class="logo"></div>
                 <div class="col"><button class="btn-reset">Reset</button></div>
             </div>
-            
+            <!-- Container body do Chat, contendo o chat em si -->
             <div class="chat_window">
                 <div class="top_menu">
                     <div class="title">Chat</div>
                 </div>
+                <!-- Container do conteúdo das mensagens -->
                 <ul class="messages"></ul>
                 <div class="bottom_wrapper clearfix">
                     <div class="message_input_wrapper">
@@ -24,6 +29,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Template das mensagens -->
                 <div class="message_template">
                     <li class="message">
                         <div class="avatar"></div>
