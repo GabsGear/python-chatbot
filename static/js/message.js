@@ -6,6 +6,9 @@ $(".btn-reset").click(function(){
 /**
  * Função criada com o objetivo de adicionar a 
  * mensagem no chat.
+ * 
+ * Lembrando que está função é a declaração de uma classe,
+ *  sendo ela o Message
  */
 
 (function () {
