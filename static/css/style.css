@@ -1,3 +1,32 @@
+/*
+* MitoChat
+*
+* Layout personalizado de MitoChat
+*
+* Este stylesheet descreve a estrutura
+* e os componentes principais sobre
+* MitoChat Interface
+*
+* @project MitoChat
+* @version 1.0
+* @package layout
+* @author(s) Eduardo Viana, Gabriel Ghellere, Gabriel Estevam
+*/
+
+
+/**
+* Style Sheet do template 'client.html' em geral
+*
+* A estrutura principal do template client  é a div
+* onde irá conter todo o conteúdo do Chat.
+* Como componentes do template temos o button reset,
+* a div da logo e também a div onde irá conter o header e body do chat.
+* 
+*
+* @section chatBot
+* @see
+*/
+
 .chat-centro {
   margin: auto;
   position: absolute;
@@ -34,6 +63,17 @@
   color: rgba(255, 255, 255, 0.85);
   box-shadow: #5d7d8c 0 0px 0px 40px inset;
 }
+
+/**
+* Style Sheet do corpo do chat em si
+*
+* A estrutura principal do chat é onde são
+* recebidas e enviadas as mensagens, no caso o <ul>.
+* Como componentes temos o input,o div de send_message 
+* div do top-menu onde fica o titulo
+* e também temos a div do template das mensagens
+* 
+*/
 
 .chat_window {
   margin-top: 80px;
@@ -189,7 +229,6 @@
   cursor: pointer;
   transition: all 0.2s linear;
   text-align: center;
-  float: right;
 }
 .bottom_wrapper .send_message:hover {
   color: #a3d063;
